@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A822431B299B6200DF5D77 /* NSMutableArray+AddItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A822421B299B6200DF5D77 /* NSMutableArray+AddItems.m */; };
+		84A822451B2A86DC00DF5D77 /* Map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84A822441B2A86DC00DF5D77 /* Map.txt */; };
+		84FDDFC31B29689E00519408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFC21B29689E00519408 /* main.m */; };
+		84FDDFC61B29689E00519408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFC51B29689E00519408 /* AppDelegate.m */; };
+		84FDDFC91B29689E00519408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFC81B29689E00519408 /* ViewController.m */; };
+		84FDDFCC1B29689E00519408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDFCA1B29689E00519408 /* Main.storyboard */; };
+		84FDDFCE1B29689E00519408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDFCD1B29689E00519408 /* Images.xcassets */; };
+		84FDDFD11B29689E00519408 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDFCF1B29689E00519408 /* LaunchScreen.xib */; };
+		84FDDFDD1B29689E00519408 /* SkiAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFDC1B29689E00519408 /* SkiAlgorithmTests.m */; };
+		84FDDFE81B29698D00519408 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFE71B29698D00519408 /* Area.m */; };
+		84FDDFEB1B2971B100519408 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDFEA1B2971B100519408 /* Route.m */; };
+		D38D944C1B2A15DC0082051B /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D944B1B2A15DC0082051B /* FileReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FDDFD71B29689E00519408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FDDFB51B29689E00519408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FDDFBC1B29689E00519408;
+			remoteInfo = SkiAlgorithm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A822411B299B6200DF5D77 /* NSMutableArray+AddItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AddItems.h"; sourceTree = "<group>"; };
+		84A822421B299B6200DF5D77 /* NSMutableArray+AddItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AddItems.m"; sourceTree = "<group>"; };
+		84A822441B2A86DC00DF5D77 /* Map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Map.txt; sourceTree = "<group>"; };
+		84FDDFBD1B29689E00519408 /* SkiAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDDFC11B29689E00519408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDDFC21B29689E00519408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FDDFC41B29689E00519408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FDDFC51B29689E00519408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FDDFC71B29689E00519408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FDDFC81B29689E00519408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FDDFCB1B29689E00519408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FDDFCD1B29689E00519408 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84FDDFD01B29689E00519408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84FDDFD61B29689E00519408 /* SkiAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDDFDB1B29689E00519408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDDFDC1B29689E00519408 /* SkiAlgorithmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkiAlgorithmTests.m; sourceTree = "<group>"; };
+		84FDDFE61B29698D00519408 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		84FDDFE71B29698D00519408 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		84FDDFE91B2971B100519408 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		84FDDFEA1B2971B100519408 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		D38D944A1B2A15DC0082051B /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		D38D944B1B2A15DC0082051B /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FDDFBA1B29689E00519408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDDFD31B29689E00519408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A822461B2AD48000DF5D77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDFE91B2971B100519408 /* Route.h */,
+				84FDDFEA1B2971B100519408 /* Route.m */,
+				84FDDFE61B29698D00519408 /* Area.h */,
+				84FDDFE71B29698D00519408 /* Area.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84FDDFB41B29689E00519408 = {
+			isa = PBXGroup;
+			children = (
+				84FDDFBF1B29689E00519408 /* SkiAlgorithm */,
+				84FDDFD91B29689E00519408 /* SkiAlgorithmTests */,
+				84FDDFBE1B29689E00519408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FDDFBE1B29689E00519408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDFBD1B29689E00519408 /* SkiAlgorithm.app */,
+				84FDDFD61B29689E00519408 /* SkiAlgorithmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FDDFBF1B29689E00519408 /* SkiAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				84A822461B2AD48000DF5D77 /* Models */,
+				84A822441B2A86DC00DF5D77 /* Map.txt */,
+				84FDDFC41B29689E00519408 /* AppDelegate.h */,
+				84FDDFC51B29689E00519408 /* AppDelegate.m */,
+				84FDDFC71B29689E00519408 /* ViewController.h */,
+				84FDDFC81B29689E00519408 /* ViewController.m */,
+				84FDDFCA1B29689E00519408 /* Main.storyboard */,
+				84FDDFCD1B29689E00519408 /* Images.xcassets */,
+				84FDDFCF1B29689E00519408 /* LaunchScreen.xib */,
+				84FDDFC01B29689E00519408 /* Supporting Files */,
+				84A822411B299B6200DF5D77 /* NSMutableArray+AddItems.h */,
+				84A822421B299B6200DF5D77 /* NSMutableArray+AddItems.m */,
+				D38D944A1B2A15DC0082051B /* FileReader.h */,
+				D38D944B1B2A15DC0082051B /* FileReader.m */,
+			);
+			path = SkiAlgorithm;
+			sourceTree = "<group>";
+		};
+		84FDDFC01B29689E00519408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDFC11B29689E00519408 /* Info.plist */,
+				84FDDFC21B29689E00519408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FDDFD91B29689E00519408 /* SkiAlgorithmTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDFDC1B29689E00519408 /* SkiAlgorithmTests.m */,
+				84FDDFDA1B29689E00519408 /* Supporting Files */,
+			);
+			path = SkiAlgorithmTests;
+			sourceTree = "<group>";
+		};
+		84FDDFDA1B29689E00519408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDFDB1B29689E00519408 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FDDFBC1B29689E00519408 /* SkiAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FDDFE01B29689E00519408 /* Build configuration list for PBXNativeTarget "SkiAlgorithm" */;
+			buildPhases = (
+				84FDDFB91B29689E00519408 /* Sources */,
+				84FDDFBA1B29689E00519408 /* Frameworks */,
+				84FDDFBB1B29689E00519408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiAlgorithm;
+			productName = SkiAlgorithm;
+			productReference = 84FDDFBD1B29689E00519408 /* SkiAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FDDFD51B29689E00519408 /* SkiAlgorithmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FDDFE31B29689E00519408 /* Build configuration list for PBXNativeTarget "SkiAlgorithmTests" */;
+			buildPhases = (
+				84FDDFD21B29689E00519408 /* Sources */,
+				84FDDFD31B29689E00519408 /* Frameworks */,
+				84FDDFD41B29689E00519408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FDDFD81B29689E00519408 /* PBXTargetDependency */,
+			);
+			name = SkiAlgorithmTests;
+			productName = SkiAlgorithmTests;
+			productReference = 84FDDFD61B29689E00519408 /* SkiAlgorithmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FDDFB51B29689E00519408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Myaango;
+				TargetAttributes = {
+					84FDDFBC1B29689E00519408 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					84FDDFD51B29689E00519408 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 84FDDFBC1B29689E00519408;
+					};
+				};
+			};
+			buildConfigurationList = 84FDDFB81B29689E00519408 /* Build configuration list for PBXProject "SkiAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FDDFB41B29689E00519408;
+			productRefGroup = 84FDDFBE1B29689E00519408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FDDFBC1B29689E00519408 /* SkiAlgorithm */,
+				84FDDFD51B29689E00519408 /* SkiAlgorithmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FDDFBB1B29689E00519408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDDFCC1B29689E00519408 /* Main.storyboard in Resources */,
+				84FDDFD11B29689E00519408 /* LaunchScreen.xib in Resources */,
+				84FDDFCE1B29689E00519408 /* Images.xcassets in Resources */,
+				84A822451B2A86DC00DF5D77 /* Map.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDDFD41B29689E00519408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FDDFB91B29689E00519408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDDFEB1B2971B100519408 /* Route.m in Sources */,
+				84FDDFE81B29698D00519408 /* Area.m in Sources */,
+				84A822431B299B6200DF5D77 /* NSMutableArray+AddItems.m in Sources */,
+				84FDDFC91B29689E00519408 /* ViewController.m in Sources */,
+				84FDDFC61B29689E00519408 /* AppDelegate.m in Sources */,
+				D38D944C1B2A15DC0082051B /* FileReader.m in Sources */,
+				84FDDFC31B29689E00519408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDDFD21B29689E00519408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDDFDD1B29689E00519408 /* SkiAlgorithmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FDDFD81B29689E00519408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FDDFBC1B29689E00519408 /* SkiAlgorithm */;
+			targetProxy = 84FDDFD71B29689E00519408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FDDFCA1B29689E00519408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FDDFCB1B29689E00519408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FDDFCF1B29689E00519408 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FDDFD01B29689E00519408 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FDDFDE1B29689E00519408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FDDFDF1B29689E00519408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FDDFE11B29689E00519408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkiAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84FDDFE21B29689E00519408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkiAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84FDDFE41B29689E00519408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkiAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkiAlgorithm.app/SkiAlgorithm";
+			};
+			name = Debug;
+		};
+		84FDDFE51B29689E00519408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkiAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkiAlgorithm.app/SkiAlgorithm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FDDFB81B29689E00519408 /* Build configuration list for PBXProject "SkiAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDDFDE1B29689E00519408 /* Debug */,
+				84FDDFDF1B29689E00519408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FDDFE01B29689E00519408 /* Build configuration list for PBXNativeTarget "SkiAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDDFE11B29689E00519408 /* Debug */,
+				84FDDFE21B29689E00519408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FDDFE31B29689E00519408 /* Build configuration list for PBXNativeTarget "SkiAlgorithmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDDFE41B29689E00519408 /* Debug */,
+				84FDDFE51B29689E00519408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FDDFB51B29689E00519408 /* Project object */;
+}
